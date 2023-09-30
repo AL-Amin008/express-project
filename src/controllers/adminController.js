@@ -5,7 +5,7 @@ exports.create = async(req,res) =>{
 
 exports.read = async(req,res) =>{
     res.status(200).json({status:'success', data:'Admin data'});
-};
+}; 
 
 exports.delete = async(req,res)=>{
   res.status(200).json({status:'success',data:'Admin deleted'});  
